@@ -25,7 +25,7 @@ $num++;
 echo "<br><b>Data Mobil $num</b><br>";
 foreach ($data as $key => $value)
 {
-echo "- $value <br>";
+echo "-  $value <br>";
 
 }
 }
