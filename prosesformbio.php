@@ -29,17 +29,17 @@
         $pray = $_POST['agama'];
         echo "AGAMA             : $pray<br>";
     }
-
+    echo "HOBBY                 : ";
     if (isset($_POST['ngegame'])) {
-        echo "HOBBY             : ".$_POST['ngegame'];
+        echo "+ ".$_POST['ngegame']."<br>";
     } if (isset($_POST['Ngusep'])) {
-        echo "HOBBY             : ".$_POST['Ngusep'];
+        echo "+ ".$_POST['Ngusep']."<br>";
     } if (isset($_POST['Membaca'])) {
-        echo "HOBBY             : ".$_POST['Membaca'];
+        echo "+ ".$_POST['Membaca']."<br>";
     } if (isset($_POST['Menggambar'])) {
-        echo "HOBBY             : ".$_POST['Menggambar'];
+        echo "+ ".$_POST['Menggambar']."<br>";
     } if (isset($_POST['Melukis'])) {
-        echo "HOBBY             : ".$_POST['Melukis'];
+        echo "+ ".$_POST['Melukis']."<br>";
     }
 
 

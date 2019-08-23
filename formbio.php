@@ -4,6 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+     h1 {
+         font-family:arial;
+     }
+     body{
+         font-family:arial;
+     }
+    </style>
     <title>Form Biodata</title>
 </head>
 <body>
@@ -32,7 +40,7 @@
                 <td><textarea name="alamat" cols="30" rows="5"></textarea><br><br></td>
             </tr>
             <tr>
-                <td>TEMPAT LAHIR</td>     
+                <td>TEMPAT LAHIR</td>     k
                 <td>:</td> 
                 <td><input type="text" name="tl"><br><br></td>
             </tr>
