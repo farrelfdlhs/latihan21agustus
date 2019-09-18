@@ -6,7 +6,6 @@ akses terbatas. Misalnya harus login terlebih dahulu.
 **************************************************************/
 
  session_start();
-
  //pemeriksaan session
  if (isset($_SESSION['Login'])) { //jika sudah login
      //menampilkan isi session
@@ -17,6 +16,6 @@ akses terbatas. Misalnya harus login terlebih dahulu.
  } else {
      //session belum ada artinya
      die ("Anda belum login! Anda tidak berhak masuk ke halaman ini.
-     Silahkan login <a href='session1.php'> Disini</a>");
+     Silahkan login <a href='session1.php'>Disini</a>");
  }
 ?>
